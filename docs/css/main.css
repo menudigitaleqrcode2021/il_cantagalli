@@ -1,6 +1,13 @@
 html, body {
   display: flex;
+  background-color: #8d2825;
+  color: #fff;
   justify-content: center;
-  align-items: stretch;
-  place-content: center center;
+  align-items: center;
+  /* place-content: center center; */
+  flex-direction: column;
+}
+
+.logo_index{
+  width: 80%;
 }
