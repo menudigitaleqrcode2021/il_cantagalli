@@ -79,6 +79,8 @@ nav a{
 h2 {
   padding: 10px;
   text-align: center;
+  font-size: large;
+  letter-spacing: 3px;
 }
 
 .listino {
