@@ -95,3 +95,17 @@ h2 {
   text-decoration: none;
   list-style: none;
 }
+
+.ingr_X_group{
+  display: block;
+  width: 80%;
+}
+
+.ingr_X_group,
+.ingr_X_group b {
+  font-size: 13px;
+}
+
+.ingr_X_group h3{
+  padding: 20px 0 10px;
+}
