@@ -4,6 +4,7 @@
   --color1: #000;
   --color1hover: #333;
   --withe: #fff;
+  --mainColor1: #990014;
   --headerColor: #b3b7b7;
   --headerColor1: #7c7c7cbb;
 }
@@ -83,19 +84,27 @@ h2 {
   letter-spacing: 3px;
 }
 
+/* TABLA LISTINO */
+
 .listino {
-  display: flex;
   width: 100%;
-  justify-content: space-between;
-  flex-direction: row;
+  margin: 20px auto;
 }
 
-.listino li {
+.listino td {
   padding: 10px;
   text-decoration: none;
   list-style: none;
 }
 
+.listino td:nth-child(2) {
+  text-align: right;
+}
+
+/* FINE TABLA LISTINO */
+
+
+/* INGREDIENTI PER GRUPPO */
 .ingr_X_group{
   display: block;
   width: 80%;
@@ -109,3 +118,5 @@ h2 {
 .ingr_X_group h3{
   padding: 20px 0 10px;
 }
+
+/* fine INGREDIENTI PER GRUPPO */
