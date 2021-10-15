@@ -139,3 +139,7 @@ footer{
   width: 100%;
   min-height: 100px;
 }
+
+caption{
+  background: linear-gradient(to bottom, #b64340 0%, #8d2825 100%);
+}
