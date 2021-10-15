@@ -70,6 +70,8 @@ nav a{
 .menu_int a {
   background-color:#b64340;
   display: inline-block;
+  flex-wrap: nowrap;
+  align-content: stretch;
 }
 
 h2 {
