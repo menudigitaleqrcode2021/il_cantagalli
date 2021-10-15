@@ -58,6 +58,8 @@ a{
   margin: 10px;
 }
 
+/* NAVEGATION BAR */
+
 nav a{
   display: block;
   background-color:#b64340;
@@ -72,6 +74,14 @@ nav a{
   display: inline-block;
   flex-wrap: nowrap;
   align-content: stretch;
+}
+
+/* FINE NAVEGATION BAR */
+
+h1{
+  font-size: large;
+  letter-spacing: 3px;
+  padding: 10px;
 }
 
 h2 {
