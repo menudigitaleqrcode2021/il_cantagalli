@@ -7,6 +7,9 @@
   --mainColor1: #990014;
   --headerColor: #b3b7b7;
   --headerColor1: #7c7c7cbb;
+  --backgroundMain:#8d2825;
+  --linkMain1:#b64340;
+  --linkHover1:#b64340;
 }
 
 * {
@@ -24,10 +27,16 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  background-color: #8d2825;
+  background: var(--backgroundMain);
   color: #fff;
   align-items: center;
   flex-direction: column;
+}
+
+
+.ingresso{
+  padding: 10px 30px;
+  background: var(--linkMain1);
 }
 
 .center_div_index {
@@ -42,7 +51,8 @@ body {
 
 .logo_index {
   display: block;
-  width: 80%;
+  width: 90%;
+  max-width: 750px;
   margin: auto;
   align-items: center;
 }
@@ -51,31 +61,90 @@ hr {
   width: 80%;
 }
 
-a{
+a {
   color: #fff;
   text-decoration: none;
-  padding: 10px;
-  margin: 10px;
 }
 
 /* NAVEGATION BAR */
+/* MENU HAMBURGER */
+nav {
+  background:var(--linkMain1);
+  position: fixed;
+  left: 5px;
+  top: 5px;
+}
 
-nav a{
+#menu{
+  width: 35px;
+  height: 30px;
+  margin: 30px 20px 20px 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.bar{
+  width: 100%;
+  height: 5px;
+  background:var(--withe);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+#bar1{
+  transform: translateY(-5px);
+}
+#bar3{
+  transform: translateY(5px);
+}
+.change #bar1{
+  transform: translateY(5px) rotate(45deg);
+}
+.change #bar3{
+  transform: translateY(-5px) rotate(-45deg);
+}
+.change #bar2{
+  opacity: 0;
+}
+/* FINE MENU HAMBURGER */
+/* efecto comparsa */
+.menu-bg{
+  width: 0px;
+  height: 0px;
+  background: radial-gradient(circle,var(--linkMain1),var(--backgroundMain));
+  position: fixed;
+  top: 35px;
+  left: 45px;
+  transform: translate(-50%,-30%);
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+.menu-bg.change{
+  width: 550px;
+  height: 540px;
+}
+/* menu interno */
+.nav{
+  display: none;
+  position: fixed;
+  left: 275px; /* ancho del ciculo a mitad*/
+  top: 270px; /* alto del ciculo a mitad*/
+  transform: translateY(-30%); /* el cuadro esta descentrado de 30% */
+}
+.nav.change {
   display: block;
-  background-color:#b64340;
-  text-align: center;
-  min-width: 200px;
-  margin: 10px;
-  padding: 15px;
 }
-
-.menu_int a {
-  background-color:#b64340;
-  display: inline-block;
-  flex-wrap: nowrap;
-  align-content: stretch;
+.nav li{
+  list-style: none;
+  padding: 16px 0;
 }
-
+.nav li a{
+  color: white;
+  text-decoration: none;
+}
+.nav li a:hover{
+  font-weight: bold;
+}
 /* FINE NAVEGATION BAR */
 
 h1{
