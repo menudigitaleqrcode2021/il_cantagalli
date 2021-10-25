@@ -85,14 +85,11 @@ a {
 
 
 
-
-
-
 /* NAVEGATION BAR */
 /* MENU HAMBURGER */
 
 header{
-  display: flex;
+  display: block;
   width: 100%;
   height: 150px;
   position: fixed;
