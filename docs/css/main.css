@@ -1,18 +1,11 @@
 @charset "UTF-8";
 
-:root {
-  --color1: #000;
-  --color1hover: #333;
-  --withe: #fff;
-  --mainColor1: #990014;
-  --headerColor: #b3b7b7;
-  --headerColor1: #7c7c7cbb;
-  --backgroundMain:#8d2825;
-  --backgroundMain2:#EFDCCE;
-  --colorText1:#777;
-  --linkMain1:#b64340;
-  --linkHover1:#b64340;
-}
+@import url(variables.css);
+@import url("variables.css");
+
+@import url(constants.css);
+@import url("constants.css");
+
 
 * {
   margin: 0;
@@ -25,10 +18,8 @@
 
 html,
 body {
-  background: var(--backgroundMain);
   width: 100%;
   height: 100%;
-  color: #fff;
 }
 
 main{
@@ -54,6 +45,13 @@ a {
 ##################################
 */
 
+.main_index{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--backgroundMain);
+}
+
 .center_div_index {
   width: 100%;
   height: 100%;
@@ -77,32 +75,45 @@ a {
   background: var(--linkMain1);
 }
 
-/* ################################## */
-/* ########### FINE INDEX ########### */
-/* ################################## */
+/*
+##################################
+########### FINE INDEX ###########
+##################################
+*/
 
+/*
+##################################
+############# HEADER #############
+##################################
+*/
 
+header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  background:var(--headerColor);
+  box-shadow: var(--headerShadow) 0px 5px 20px;
+}
 
+.logo_header {
+  display: block;
+  margin: 0 30px;
+}
 
+.logo_header img{
+  display: block;
+  margin: 0;
+  width: 70%;
+  height: 80%;
+  max-height: 150px;
+
+}
 
 /* NAVEGATION BAR */
 /* MENU HAMBURGER */
 
-header{
-  display: block;
-  width: 100%;
-  height: 150px;
-  position: fixed;
-  background:var(--backgroundMain);
-  top: 0;
-}
-
-.logo_Header{
-  display: block;
-  width: 80%;
-  max-height: 150px;
-  margin: 0 30%;
-}
 
 nav {
   position: fixed;
@@ -119,22 +130,22 @@ nav {
 }
 .bar{
   width: 100%;
-  height: 5px;
+  height: 4px;
   background:var(--withe);
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 #bar1{
-  transform: translateY(-5px);
+  transform: translateY(-7px);
 }
 #bar3{
-  transform: translateY(5px);
+  transform: translateY(7px);
 }
 .change #bar1{
-  transform: translateY(5px) rotate(45deg);
+  transform: translateY(4px) rotate(45deg);
 }
 .change #bar3{
-  transform: translateY(-5px) rotate(-45deg);
+  transform: translateY(-4px) rotate(-45deg);
 }
 .change #bar2{
   opacity: 0;
@@ -144,7 +155,7 @@ nav {
 .menu-bg{
   width: 0px;
   height: 0px;
-  background: radial-gradient(circle,var(--linkMain1),var(--backgroundMain));
+  background: radial-gradient(circle,var(--linkMain1) 10%,var(--backgroundMain) 70%);
   position: fixed;
   top: 35px;
   right: 45px;
@@ -181,6 +192,13 @@ nav {
   font-weight: bold;
 }
 /* FINE NAVEGATION BAR */
+
+/*
+##################################
+############# HEADER #############
+##################################
+*/
+
 
 h1{
   font-size: large;

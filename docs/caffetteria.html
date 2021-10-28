@@ -1,249 +1,252 @@
 <!DOCTYPE html>
 <html lang="it">
-  
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caffetteria Gelateria Yogurteria Il Cantagalli</title>
-  <!-- ICON -->
-  <link rel="icon" href="img/favicon/icon-logo.png" sizes="96x96">
-  <link rel="icon" href="img/favicon/icon-logo.png" type="image/x-icon">
-  <link rel="icon" href="img/favicon/icon-logo.svg" type="image/svg+xml">
-  <link rel="shortcut icon" href="img/favicon/icon-logo.png" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/favicon/icon-logo.png">
-  
-  <meta name="theme-color" content="#8d2825">
-  
-  <link rel="stylesheet" href="css/main.css">
-</head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffetteria Gelateria Yogurteria Il Cantagalli</title>
+    <!-- ICON -->
+    <link rel="icon" href="img/favicon/icon-logo.png" sizes="96x96">
+    <link rel="icon" href="img/favicon/icon-logo.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon/icon-logo.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="img/favicon/icon-logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/icon-logo.png">
+
+    <meta name="theme-color" content="#8d2825">
+
+    <link rel="stylesheet" href="css/main.css">
+  </head>
 
   <body>
 
-    
+
     <header>
-      <a href="index.html">
-        <img class="logo_Header" src="img/logo.svg" alt="">
-      </a>
+
+      <div class="logo_header">
+        <a href="index.html"><img src="img/logo_header.svg"></a>
+      </div>
+
+      <!-- menu de navegazion -->
+      <nav id="menu-bar">
+
+        <div id="menu" onclick="onClickMenu()" class="h">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div><!-- fin caja menu -->
+
+        <div id="menu-bg" class="menu-bg">
+          <ul id="nav" class="nav">
+            <li><a href="caffetteria.html">Caffetteria</a></li>
+            <li><a href="bibite.html">Bibite</a></li>
+            <li><a href="gelateria.html">Gelateria Artigianale</a></li>
+            <li><a href="yogurteria.html">Yogurteria</a></li>
+            <li><a href="https://www.suavisitaly.com/p_cremefredde.asp">Cremeria</a></li>
+          </ul>
+        </div><!-- fin caja menu-bg -->
+
+      </nav>
+      <script src="js/nav_main.js" type="text/javascript"></script>
+      <!-- fin caja menu-bar -->
+      <!-- fine menu de navegazion -->
     </header>
 
-    <!-- menu de navegazion -->
-    <nav id="menu-bar">
-    
-      <div id="menu" onclick="onClickMenu()" class="mEnuBAR">
-        <div id="bar1" class="bar"></div>
-        <div id="bar2" class="bar"></div>
-        <div id="bar3" class="bar"></div>
-      </div><!-- fin caja menu -->
-      
-      <div id="menu-bg" class="menu-bg">
-        <ul id="nav" class="nav">
-          <li><a href="caffetteria.html">Caffetteria</a></li>
-          <li><a href="bibite.html">Bibite</a></li>
-          <li><a href="gelateria.html">Gelateria Artigianale</a></li>
-          <li><a href="yogurteria.html">Yogurteria</a></li>
-          <li><a href="https://www.suavisitaly.com/p_cremefredde.asp">Cremeria</a></li>
-        </ul>
-      </div><!-- fin caja menu-bg -->
-      
-    </nav>
-    <script src="js/nav_main.js" type="text/javascript"></script>
-    <!-- fin caja menu-bar -->
-    <!-- fine menu de navegazion -->
 
 
 
 
 
 
-    
-<main>
-    <!-- Caffetteria -->
-    <div class="caja_list">
-      <div class="">
-        
-        <div class="prodotti">
-          <table class="listino">
-            <caption>
-              <h2>Caffetteria</h2>
+    <main>
+      <!-- Caffetteria -->
+      <div class="caja_list">
+        <div class="">
 
-            </caption>
-            <tr>
-              <td>Caffè Espresso</td>
-              <td>0,80</td>
-            </tr>
-            <tr>
-              <td>Caffè Macchiato</td>
-              <td>0,80</td>
-            </tr>
-            <tr>
-              <td>Caffè Decaffeinato</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Caffè Orzo</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Caffè al Ginseng</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Caffè al Ginseng Amaro</td>
-              <td>1,20</td>
-            </tr>
-            <tr>
-              <td>Caffè con Panna</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Cremino al Caffè</td>
-              <td>1,50</td>
-            </tr>
-            <tr>
-              <td>Cremino al Pistacchio</td>
-              <td>1,80</td>
-            </tr>
-            <tr>
-              <td>Cappuccino</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Latte Macchiato</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Cioccolata Calda</td>
-              <td>2,50</td>
-            </tr>
-            <tr>
-              <td>Cioccolata Calda con Panna</td>
-              <td>3,00</td>
-            </tr>
-          </table>
+          <div class="prodotti">
+            <table class="listino">
+              <caption>
+                <h2>Caffetteria</h2>
+
+              </caption>
+              <tr>
+                <td>Caffè Espresso</td>
+                <td>0,80</td>
+              </tr>
+              <tr>
+                <td>Caffè Macchiato</td>
+                <td>0,80</td>
+              </tr>
+              <tr>
+                <td>Caffè Decaffeinato</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Caffè Orzo</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Caffè al Ginseng</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Caffè al Ginseng Amaro</td>
+                <td>1,20</td>
+              </tr>
+              <tr>
+                <td>Caffè con Panna</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Cremino al Caffè</td>
+                <td>1,50</td>
+              </tr>
+              <tr>
+                <td>Cremino al Pistacchio</td>
+                <td>1,80</td>
+              </tr>
+              <tr>
+                <td>Cappuccino</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Latte Macchiato</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Cioccolata Calda</td>
+                <td>2,50</td>
+              </tr>
+              <tr>
+                <td>Cioccolata Calda con Panna</td>
+                <td>3,00</td>
+              </tr>
+            </table>
+          </div>
+
         </div>
 
       </div>
+      <!-- fine Caffetteria -->
 
-    </div>
-    <!-- fine Caffetteria -->
+      <!-- Cornetteria -->
+      <hr>
+      <div class="caja_list">
+        <h2>Cornetteria</h2>
 
-    <!-- Cornetteria -->
-    <hr>
-    <div class="caja_list">
-      <h2>Cornetteria</h2>
+        <div class="">
+          <div class="prodotti">
+            <table class="listino">
+              <tr>
+                <td>Cornetto</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Cornetto Cantagalli</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Cornetto Senza Glutine</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Cornetto Mini</td>
+                <td>0,60</td>
+              </tr>
+              <tr>
+                <td>Bombolone</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Ciambella</td>
+                <td>1,00</td>
+              </tr>
+              <tr>
+                <td>Cannolo Siciliano</td>
+                <td>2,00</td>
+              </tr>
+            </table>
+          </div>
 
-      <div class="">
-        <div class="prodotti">
-          <table class="listino">
-            <tr>
-              <td>Cornetto</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Cornetto Cantagalli</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Cornetto Senza Glutine</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Cornetto Mini</td>
-              <td>0,60</td>
-            </tr>
-            <tr>
-              <td>Bombolone</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Ciambella</td>
-              <td>1,00</td>
-            </tr>
-            <tr>
-              <td>Cannolo Siciliano</td>
-              <td>2,00</td>
-            </tr>
-          </table>
         </div>
+        <!-- fine listino -->
+      </div>
+      <!-- fine Cornetteria -->
+
+      <!-- Aperitivo Analcolico -->
+      <div class="caja_list">
+        <table class="listino">
+          <caption>
+            <h2>Crepes</h2>
+          </caption>
+          <tr>
+            <td>Crepes Nutella</td>
+            <td>2,50</td>
+          </tr>
+          <tr>
+            <td>Crepes Pistacchio</td>
+            <td>3,00</td>
+          </tr>
+          <tr>
+            <td>Crepes Cioccolato Bianco</td>
+            <td>3,00</td>
+          </tr>
+          <tr>
+            <td>Crepes Nocciola</td>
+            <td>3,00</td>
+          </tr>
+          <tr>
+            <td>Crepes + Gelato</td>
+            <td>4,00</td>
+          </tr>
+          <tr>
+            <td>Aggiunte</td>
+            <td>0,50</td>
+          </tr>
+        </table>
+      </div>
+      <!-- fine Aperitivo Analcolico -->
+
+
+
+      <hr>
+      <div class="ingr_X_group">
+        <h2>INGREDIENTI PER GRUPPO</h2>
+
+        <h3> Gelati al latte e derivati</h3>
+
+        <b>Latte</b>, zucchero destrosio, sciroppo di glucosio, <b>panna, uova,</b> caffè, cacao, cioccolato, vaniglia, grasso vegetale, olio vegetale, aromi, addensanti (E410, E412, E466), coloranti (estratto di cocciniglia, clorofilla, paprica, caramello, curcuma), emulsionanti (E471, E472A, E472B)
+
+
+        <h3> Gelati alla frutta e agli ortaggi</h3>
+
+        Acqua, zucchero, destrosio, sciroppo di glucosio, <b>latte, frutta</b> e ortaggi, aromi, addensanti (E410, E412, E466), coloranti (estratto di cocciniglia, clorofilla, paprica, caramello, curcuma), emulsionanti (E471, E472A, E472B)
+
+
+        <h3> Gelati ai cereali</h3>
+
+        Acqua, <b>latte</b>, zucchero, destrosio, sciroppo di glucosio, <b>panna, cereali, uova</b>, aromi, addensanti (E410, E412, E466), coloranti (estratto di cocciniglia, clorofilla, paprica, caramello, curcuma), emulsionanti (E471, E472A, E472B)
+
+        <h3> Semifreddi</h3>
+
+        <b>Latte, panna,</b> zucchero, destrosio, sciroppo di glucosio, <b>uova</b>, pan di Spagna, cacao, cioccolato, caffè, amarena, nocciola, alcol, aromi, addensanti (E410, E412, E466), coloranti (estratto di cocciniglia, clorofilla, paprica, caramello, curcuma), emulsionanti (E471, E472A, E472B)
+
+        <h3> Pasticceria fresca e dolci freschi</h3>
+
+        <b>Farina di grano tenero</b>, zucchero, glucosio, miele, <b>uova, burro</b>, margarina, olio vegetale, strutto, <b>latte, panna</b>, frutta, ciocco, vino liquoroso, acqua, confettura di frutta, gelatina di frutta, riso, <b>mandorle,</b> cacao, uva sultanina, caffè, <b>ricotta</b>, amido, fecola, lievito, agenti lievitanti (gluconodeltalattone, carbonato acido di sodio), sale, aromi, spezie, coloranti (E17, E133, E124)
+
+        <h3> Pasticceria e biscotteria secca.<br>Paste lievitate</h3>
+
+        <b>Farina di grano tenero</b>, zucchero, glucosio, miele, <b>uova, burro</b>, margarina, olio vegetale, strutto, <b>latte</b>, cioccolato, alcol, vino liquoroso, confettura di frutta, gelatina di frutta, acqua, <b>mandorle</b>, cacao, uva sultanina, amido, fecola, lievito, agenti lievitanti (gluconodeltalattone, carbonato acido di sodio), sale, aromi, spezie, coloranti (E17, E133, E124)
+
+        <h3>Pasticceria salata</h3>
+
+        <b>Farina di grano tenero</b>, olio vegetale, olio di oliva, strutto, <b>burro, uovo</b>, prosciutto cotto, formaggio, ortaggi, malto, aceto di vino, senape, piante aromatiche, agrumi, gelatina di frutta, lievito, zucchero, sale, aromi, spezie, coloranti (E17, E133, E124)
 
       </div>
-      <!-- fine listino -->
-    </div>
-    <!-- fine Cornetteria -->
-
-    <!-- Aperitivo Analcolico -->
-    <div class="caja_list">
-      <table class="listino">
-        <caption><h2>Crepes</h2></caption>
-        <tr>
-          <td>Crepes Nutella</td>
-          <td>2,50</td>
-        </tr>
-        <tr>
-          <td>Crepes Pistacchio</td>
-          <td>3,00</td>
-        </tr>
-        <tr>
-          <td>Crepes Cioccolato Bianco</td>
-          <td>3,00</td>
-        </tr>
-        <tr>
-          <td>Crepes Nocciola</td>
-          <td>3,00</td>
-        </tr>
-        <tr>
-          <td>Crepes + Gelato</td>
-          <td>4,00</td>
-        </tr>
-        <tr>
-          <td>Aggiunte</td>
-          <td>0,50</td>
-        </tr>
-      </table>
-</div>
-<!-- fine Aperitivo Analcolico -->
+    </main>
 
 
-
-    <hr>
-    <div class="ingr_X_group">
-      <h2>INGREDIENTI PER GRUPPO</h2>
-
-      <h3> Gelati al latte e derivati</h3>
-
-      <b>Latte</b>, zucchero destrosio, sciroppo di glucosio, <b>panna, uova,</b> caffè, cacao, cioccolato, vaniglia, grasso vegetale, olio vegetale, aromi, addensanti (E410, E412, E466), coloranti (estratto di cocciniglia, clorofilla, paprica, caramello, curcuma), emulsionanti (E471, E472A, E472B)
-
-
-      <h3> Gelati alla frutta e agli ortaggi</h3>
-
-      Acqua, zucchero, destrosio, sciroppo di glucosio, <b>latte, frutta</b> e ortaggi, aromi, addensanti (E410, E412, E466), coloranti (estratto di cocciniglia, clorofilla, paprica, caramello, curcuma), emulsionanti (E471, E472A, E472B)
-
-
-      <h3> Gelati ai cereali</h3>
-
-      Acqua, <b>latte</b>, zucchero, destrosio, sciroppo di glucosio, <b>panna, cereali, uova</b>, aromi, addensanti (E410, E412, E466), coloranti (estratto di cocciniglia, clorofilla, paprica, caramello, curcuma), emulsionanti (E471, E472A, E472B)
-
-      <h3> Semifreddi</h3>
-
-      <b>Latte, panna,</b> zucchero, destrosio, sciroppo di glucosio, <b>uova</b>, pan di Spagna, cacao, cioccolato, caffè, amarena, nocciola, alcol, aromi, addensanti (E410, E412, E466), coloranti (estratto di cocciniglia, clorofilla, paprica, caramello, curcuma), emulsionanti (E471, E472A, E472B)
-
-      <h3> Pasticceria fresca e dolci freschi</h3>
-
-      <b>Farina di grano tenero</b>, zucchero, glucosio, miele, <b>uova, burro</b>, margarina, olio vegetale, strutto, <b>latte, panna</b>, frutta, ciocco, vino liquoroso, acqua, confettura di frutta, gelatina di frutta, riso, <b>mandorle,</b> cacao, uva sultanina, caffè, <b>ricotta</b>, amido, fecola, lievito, agenti lievitanti (gluconodeltalattone, carbonato acido di sodio), sale, aromi, spezie, coloranti (E17, E133, E124)
-
-      <h3> Pasticceria e biscotteria secca.<br>Paste lievitate</h3>
-
-      <b>Farina di grano tenero</b>, zucchero, glucosio, miele, <b>uova, burro</b>, margarina, olio vegetale, strutto, <b>latte</b>, cioccolato, alcol, vino liquoroso, confettura di frutta, gelatina di frutta, acqua, <b>mandorle</b>, cacao, uva sultanina, amido, fecola, lievito, agenti lievitanti (gluconodeltalattone, carbonato acido di sodio), sale, aromi, spezie, coloranti (E17, E133, E124)
-
-      <h3>Pasticceria salata</h3>
-
-      <b>Farina di grano tenero</b>, olio vegetale, olio di oliva, strutto, <b>burro, uovo</b>, prosciutto cotto, formaggio, ortaggi, malto, aceto di vino, senape, piante aromatiche, agrumi, gelatina di frutta, lievito, zucchero, sale, aromi, spezie, coloranti (E17, E133, E124)
-
-    </div>
-  </main>
-
-  
     <footer>
 
     </footer>
