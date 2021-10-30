@@ -1,41 +1,44 @@
 :root {
   --black: #000;
   --withe: #fff;
-  
+
   --color1hover: #333;
-  
-  --color1:#990026;
+
+  --color1: #990026;
   --mainColor1: #990014;
 
 
-/*
+  /*
 ##################################
 ############# HEADER #############
 ##################################
 */
 
-  --headerColor:#990026;
-  --headerShadow:#500014;
+  --headerColor: #990026;
+  --headerShadow: #500014;
   --headerColor1: #7c7c7cbb;
 
   /* --headerColor: #b3b7b7; */
-/*
+  /*
 ##################################
 ######### END HEADER #############
 ##################################
 */
 
+  --backgroundMain: #990026;
+  --backgroundMain2: #efdcce;
+  --nth_child_odd: #ecd1be;
 
-
-
-
-  --backgroundMain:#990026;
-  --backgroundMain2:#EFDCCE;
   /* --backgroundMain:#8d2825; */
 
 
-  --colorText1:#777;
+  --colorText1: #777;
 
-  --linkMain1:#b64340;
-  --linkHover1:#b64340;
+  --linkMain1: #b64340;
+  --linkHover1: #b64340;
+
+  --gradient1: #b64340;
+  --gradient2: #f7b7ae;
+
+
 }
