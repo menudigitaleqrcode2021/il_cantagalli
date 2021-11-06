@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
-  
+
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +15,7 @@
     <!-- theme-color -->
     <meta name="theme-color" content="#990026">
     <!-- stylesheet -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/constants.css">
     <link rel="stylesheet" href="css/main.css">
@@ -52,87 +53,136 @@
       <!-- fin caja menu-bar -->
       <!-- fine menu de navegazion -->
     </header>
-    
-<main>
 
 
-    <hr>
-    <h1>Yogurteria</h1>
+    <main>
 
-    <!-- YOGURT -->
-    <hr>
-    <div class="caja_list">
-      <h2>Yogurt</h2>
+      <!-- YOGURT -->
+      <div class="caja_list">
 
-      <P>
-        Formula al Naturale: Senza Glutine, Senza Grassi Vegetali, Con Proteine del Latte, Con Zucchero di Canna.
-      </P>
-
-      <div class="">
-
-        <div class="prodotti">
-          <table class="listino">
-            <tr>
-              <td>Yogurt Naturale (Bianco)</td>
-              <td>2,50</td>
-            </tr>
-            <tr>
-              <td>Yogurt + Frutta</td>
-              <td>3,00</td>
-            </tr>
-            <tr>
-              <td>Yogurt + Nutella</td>
-              <td>2,50</td>
-            </tr>
-            <tr>
-              <td>Yogurt + Topping</td>
-              <td>2,50</td>
-            </tr>
-          </table>
+        <div class="caption">
+          <h2>Yogurteria</h2>
+          <img src="img/yogurt">
         </div>
 
+        <table class="listino">
+          <tr>
+            <th>Yogurt</th>
+            <td><img src="img/yogurt"></td>
+          </tr>
+          <tr>
+            <td>
+              <P>
+                <b>Formula al Naturale:</b> Senza Glutine, Senza Grassi Vegetali,<br>
+                con Proteine del Latte, con Zucchero di Canna.
+              </P>
+            </td>
+          </tr>
+          <tr>
+            <td>Yogurt Naturale (Bianco)</td>
+            <td>2,50</td>
+          </tr>
+          <tr>
+            <td>Yogurt + Frutta</td>
+            <td>3,00</td>
+          </tr>
+          <tr>
+            <td>Yogurt + Nutella</td>
+            <td>2,50</td>
+          </tr>
+          <tr>
+            <td>Yogurt + Topping</td>
+            <td>2,50</td>
+          </tr>
+        </table>
+
       </div>
+      <!-- fine YOGURT -->
 
-    </div>
-    <!-- fine YOGURT -->
+      <!-- TOPPING -->
+      <div class="caja_list">
 
-    <!-- TOPPING -->
-    <hr>
-    <div class="caja_list">
-      <h2>Topping</h2>
-
-      <div class="listino">
-
-        <div class="prodotti">
-          <table class="listino">
-            <tr>
-              <td><img src="img/yogurt/toppings/amarena.png" alt=""></td>
-              <td>Amarena</td>
-            </tr>
-          </table>
+        <div class="caption">
+          <h2>Topping</h2>
+          <img src="img/yogurt">
         </div>
 
+        <table class="listino">
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings/amarena.png" alt=""></td>
+            <td>Amarena</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings" alt=""></td>
+            <td>Caffè</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings" alt=""></td>
+            <td>Caramel</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings" alt=""></td>
+            <td>Cioccolato</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings" alt=""></td>
+            <td>Cioccolato Nero Fondente</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings" alt=""></td>
+            <td>Cioccolato Bianco</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings" alt=""></td>
+            <td>Cocco</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings" alt=""></td>
+            <td>Fragola</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="img/yogurt/toppings" alt=""></td>
+            <td>Frutti di Bosco</td>
+            <td></td>
+          </tr>
+        </table>
+
       </div>
+      <!-- fine TOPPING -->
 
-    </div>
-    <!-- fine TOPPING -->
+      <br>
+      <div class="ingr_X_group">
+        <p>
+          <b>a piacere guarnire con:</b> granella di nocciole, microbiscotti al cacao, microbiscotti alla vaniglia, oreo, ecc.
+        </p>
+        <br>
+        <p>
+          * nello scusarmi nel caso in cui alcuni gusti non fossero disponibili. Si consiglia alla gentile clientela di informarsi dal personale su eventuali nuovi gusti prodotti.
+        </p>
 
-    <hr>
-    <div class="ingr_X_group">
-      <p>
-        a piacere guarnire con: granella di nocciole, microbiscotti al cacao, microbiscotti alla vaniglia, oreo, ecc.
-      </p>
+      </div>
+    </main>
 
-      <p>
-        * nello scusarmi nel caso in cui alcuni gusti non fossero disponibili. Si consiglia alla gentile clientela di informarsi dal personale su eventuali nuovi gusti prodotti.
-      </p>
+    <footer>
 
-    </div>
-  </main>
-
-<footer>
-
-</footer>
+    </footer>
 
   </body>
 

@@ -190,6 +190,17 @@ nav {
   width: 100px;
 }
 
+table caption{
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.caja_list p{
+  
+}
+
 .listino {
   border-collapse:collapse;
   width: 100%;
@@ -221,6 +232,7 @@ nav {
 
 
 /* INGREDIENTI PER GRUPPO */
+
 .ingr_X_group{
   display: block;
   width: 80%;
